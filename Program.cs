@@ -17,7 +17,6 @@ namespace Matematikspelet
             Main(args);
         }
 
-        // Where you choose your type of math problems
         static public void GameChoice()
         {
             bool isPlayerChoice = false;
@@ -62,7 +61,6 @@ namespace Matematikspelet
             }
         }
 
-        // All types of math problems
         static public void Addition()
         {
             int rightAnswers = 0;
@@ -314,7 +312,6 @@ namespace Matematikspelet
 
         }
 
-        // All the different multiplication tables
         static public void MultiplicationTableOne()
         {
             int rightAnswers = 0;
