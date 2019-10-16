@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="GameEngine.cs" />
+    <Compile Include="Helpers\Writer.cs" />
+    <Compile Include="Helpers\UserInputParser.cs" />
+    <Compile Include="IEngine.cs" />
+    <Compile Include="Modes\AdditionMode.cs" />
+    <Compile Include="Modes\DivisionMode.cs" />
+    <Compile Include="Modes\ExitGameMode.cs" />
+    <Compile Include="Modes\IMode.cs" />
+    <Compile Include="Modes\MultiplicationMixedMode.cs" />
+    <Compile Include="Modes\MultiplicationMode.cs" />
+    <Compile Include="Modes\SubtractionMode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
